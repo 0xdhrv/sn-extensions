@@ -1,0 +1,20 @@
+{
+  "identifier": "io.github.lzambarda.sn-nord-theme",
+  "name": "Nord Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "0.0.1",
+  "description": "Standard Notes theme inspired by the magnificent Nord Theme.",
+  "url": "https://raw.githubusercontent.com/lzambarda/sn-nord-theme/master/theme.css",
+  "download_url": "https://github.com/lzambarda/sn-nord-theme/archive/v0.0.1.zip",
+  "latest_url": "https://listed.to/p/GiMOAmChBO",
+  "marketing_url": "https://github.com/lzambarda/sn-nord-theme",
+  "thumbnail_url": "https://raw.githubusercontent.com/lzambarda/sn-nord-theme/master/preview.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#5e81ac",
+    "foreground_color": "#eceff4",
+    "border_color": "#5e81ac"
+  },
+  "statusBar": "dark-content"
+}
