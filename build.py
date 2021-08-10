@@ -119,8 +119,8 @@ def main(base_url):
     with open(os.path.join(public_dir, 'index.json'), 'w') as wf:
         json.dump(
             dict(
-                content_type='SN|Repo',
-                valid_until='2030-05-16T18:35:33.000Z',
+                content_type='Standard Notes Extensions',
+                valid_until='2040-05-16T18:35:33.000Z',
                 packages=extensions,
             ),
             wf,
@@ -146,5 +146,5 @@ def main(base_url):
 
 
 if __name__ == '__main__':
-    main(os.getenv('URL', 'https://snext.netlify.app/'))
+    main(os.getenv('URL', 'https://sne.dhrv.pw/'))
 
